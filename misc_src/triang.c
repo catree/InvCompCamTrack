@@ -1,31 +1,3 @@
-// *** optimization
-// conditioning of problem
-// weighting in input 2d observations from tracking and/or intensity match score
-// initialize tracking by 3D reprojection
-// regularized optimization
-// optimize 2d displacement and vehicle pose jointly
-// robustified cost function (huber?)
-// forward-backward consistency
-//
-// *** trajectory management
-// keeping trajectories indefinitely
-// indefinite track storage based on keyframes
-// keep good homogeneous coverage (from all views)
-// outlier / moving point rejection
-
-// *** geometric constraints/assumptions
-// ground plane assumption
-// enforcing eipipolar line during tracking
-// set search radius to reprojection uncertainty in tracking
-// use tracking uncertainty in triangulation
-// set triangulated points on rigid objects (e.g. planes)
-// matching of trajectories aross cameras
-
-// *** vehicle pose assumptions
-// smoothness by kalman filtering
-// pose refinement also for past observations with spline and reprojection
-// biased pose estimator
-
 
 #include <stdio.h>
 #include <stdlib.h>
