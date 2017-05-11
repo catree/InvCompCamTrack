@@ -1,0 +1,57 @@
+*** Without 3d point position refinement
+
+Function evaluations 29, initial cost 2.0784e+07, final cost 5.8447e+05, first-order optimality 1.60e+00.
+Err. reduction: 21.8534857092 -> 3.66471247403 with global t.error: 0.0222001620512
+Function evaluations 40, initial cost 5.6671e+07, final cost 1.5805e+06, first-order optimality 3.55e+03.
+Err. reduction: 35.6557095244 -> 5.95450988892 with global t.error: 0.0351844893858
+Function evaluations 40, initial cost 1.6923e+07, final cost 1.9967e+06, first-order optimality 8.58e+03.
+Err. reduction: 19.3108963245 -> 6.63309339769 with global t.error: 0.0457735331141
+Function evaluations 37, initial cost 1.8483e+07, final cost 2.5089e+06, first-order optimality 7.41e+03.
+Err. reduction: 20.112846772 -> 7.41027374033 with global t.error: 0.07520767439
+Function evaluations 32, initial cost 4.0178e+07, final cost 2.1728e+07, first-order optimality 1.28e+05.
+Err. reduction: 29.9659435185 -> 22.0363765882 with global t.error: 0.288374383149
+
+
+*** With 3d point position refinement
+
+Function evaluations 30, initial cost 2.0746e+07, final cost 9.3003e+04, first-order optimality 1.72e-02.
+Err. reduction: 21.8338832253 -> 1.46187159165 with global t.error: 0.00269587910281
+Function evaluations 28, initial cost 1.7926e+07, final cost 1.2302e+05, first-order optimality 6.80e-02.
+Err. reduction: 20.0091937047 -> 1.65755569566 with global t.error: 0.00256201894355
+Function evaluations 31, initial cost 1.6943e+07, final cost 6.1666e+04, first-order optimality 2.45e-02.
+Err. reduction: 19.282632795 -> 1.1633027035 with global t.error: 0.00269705779885
+Function evaluations 29, initial cost 1.8422e+07, final cost 5.6480e+04, first-order optimality 3.60e-02.
+Err. reduction: 20.0097604252 -> 1.1079424531 with global t.error: 0.00362698778083
+Function evaluations 30, initial cost 1.7994e+07, final cost 6.1153e+04, first-order optimality 9.78e-02.
+Err. reduction: 19.7718274068 -> 1.1526265164 with global t.error: 0.00292045438841
+
+
+*** C Interface
+*** Full LM 3D
+Function evaluations 31, initial cost 2.0750e+07, final cost 6.6583e+04, first-order optimality 8.09e-02.
+Err. reduction: 21.8358376203 -> 1.23692403624 with global t.error: 0.00188976116453
+Function evaluations 29, initial cost 1.7904e+07, final cost 7.0246e+04, first-order optimality 5.05e-01.
+Err. reduction: 19.9969938517 -> 1.25255435889 with global t.error: 0.00161528301524
+Function evaluations 30, initial cost 1.6908e+07, final cost 6.1537e+04, first-order optimality 1.44e-01.
+Err. reduction: 19.2626911939 -> 1.16206874769 with global t.error: 0.00225183677162
+Function evaluations 31, initial cost 1.8425e+07, final cost 1.1595e+05, first-order optimality 6.08e-01.
+Err. reduction: 20.0096334999 -> 1.58733209778 with global t.error: 0.00925563378273
+Function evaluations 30, initial cost 1.8150e+07, final cost 1.0390e+05, first-order optimality 2.37e-02.
+Err. reduction: 19.8682067861 -> 1.50323002368 with global t.error: 0.00879267878734
+
+*** Depth only
+Function evaluations 31, initial cost 2.0644e+07, final cost 1.5317e+04, first-order optimality 1.76e-02.
+Err. reduction: 21.780124594 -> 0.59325548829 with global t.error: 0.000795769199064
+Function evaluations 32, initial cost 1.7879e+07, final cost 1.6025e+04, first-order optimality 7.58e-03.
+Err. reduction: 19.9829446115 -> 0.598269791067 with global t.error: 0.00110861569437
+Function evaluations 31, initial cost 1.6885e+07, final cost 1.7507e+04, first-order optimality 2.15e-02.
+Err. reduction: 19.2487746096 -> 0.619819163937 with global t.error: 0.00131441706545
+Function evaluations 28, initial cost 1.8395e+07, final cost 1.5194e+04, first-order optimality 2.70e-02.
+Err. reduction: 19.9936055303 -> 0.574606894823 with global t.error: 0.00239741468595
+Function evaluations 29, initial cost 1.7963e+07, final cost 1.5882e+04, first-order optimality 2.08e-01.
+Err. reduction: 19.7539483357 -> 0.587391146652 with global t.error: 0.00313878392569
+Function evaluations 29, initial cost 1.6457e+07, final cost 1.6894e+04, first-order optimality 1.63e-02.
+Err. reduction: 19.0224625402 -> 0.609477578323 with global t.error: 0.00353289332773
+Function evaluations 30, initial cost 1.5720e+07, final cost 1.5377e+04, first-order optimality 2.16e-02.
+Err. reduction: 18.7766113226 -> 0.587264348125 with global t.error: 0.00422081438495
+
